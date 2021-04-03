@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Post Ad</title>
+</head>
+<body>
+<h1>Post your Ad first</h1>
+ <p>Please fill details below</p>
+ <form action="servlet1" method="post" enctype="multipart/form-data">
+Category :
+				  	<select name="category">
+  				  	<option value="car">Car</option>
+  				  	<option value="2-wheeler">Bike</option>
+  				  	<option value="bi-cylce">Cycle</option>
+                    </select>
+<br>
+Condition : 
+  					<select name="cond">
+					<option value="used">Used</option>
+  					<option value="Unused">Unused</option>
+				    </select>
+<br>
+    
+Title:
+<input type="text" name="title">
+  <br>
+City :
+  <input type="text" name="city">
+  <br>
+  
+Select images: <input type="file" name="img" size="50">
+  <input type="submit" value="Submit">
+</form> 
+</body>
+</html>
